@@ -474,20 +474,36 @@ ul li:hover {
 .a2 p {
   line-height: 25px;
 }
+
 .skills {
   width: 40%;
-  height: 350px;
+  min-height: 350px;
   background-color: var(--bg-100);
   border-radius: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  box-sizing: border-box;
 }
+
 .skills .s1 {
   display: flex;
-  width: 80%;
-  flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 40px;
+  gap: 10px;
   color: var(--text-100);
+  margin: 10px 0 0 0;
+}
+
+.skills .s1 p {
+  background: var(--bg-200);
+  padding: 6px 12px;
+  border-radius: 12px;
+  margin: 5px 0px;
+  margin-right: 10px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: var(--bg-200);
+  font-size: 14px;
+  white-space: nowrap;
 }
 
 .skills .s {
@@ -496,14 +512,14 @@ ul li:hover {
   font-weight: 800;
   padding-left: 20px;
 }
-.s1 p {
+/* .s1 p {
   padding: 10px 15px;
   margin: 10px 0px;
   margin-right: 20px;
   height: fit-content;
   border-radius: 20px;
   background-color: var(--bg-200);
-}
+} */
 .s1 p:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
